@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background: #111111;
+  color: white;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 30%;
+  margin: 50px auto;
+}
+
+/*pcデカい表示*/
+@media (min-width: 1500px) {
+ .container {
+    width: 20%;
+  }
+}
+
+/*スマホ表示*/
+@media (max-width: 768px) {
+ .container {
+    width: 70%;
+  }
+}

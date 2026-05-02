@@ -1,0 +1,13 @@
+h1, p {
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden; 
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
